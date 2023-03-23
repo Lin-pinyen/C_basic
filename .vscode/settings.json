@@ -7,6 +7,7 @@
         "And_statement.C": "cpp",
         "And_OR.C": "cpp",
         "And_or_not.C": "cpp",
-        "logic.C": "cpp"
+        "logic.C": "cpp",
+        "function.C": "cpp"
     }
 }
