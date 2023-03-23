@@ -8,6 +8,8 @@
         "And_OR.C": "cpp",
         "And_or_not.C": "cpp",
         "logic.C": "cpp",
-        "function.C": "cpp"
+        "function.C": "cpp",
+        "return.C": "cpp",
+        "stdio.h": "c"
     }
 }
