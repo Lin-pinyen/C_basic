@@ -10,6 +10,9 @@
         "logic.C": "cpp",
         "function.C": "cpp",
         "return.C": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "Maxvalue.C": "cpp",
+        "string.C": "cpp",
+        "strlwr.h": "c"
     }
 }
