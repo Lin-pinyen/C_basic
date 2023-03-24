@@ -21,6 +21,8 @@
         "2Darray.C": "cpp",
         "array_of_string.C": "cpp",
         "swap.C": "cpp",
-        "bubblesort.C": "cpp"
+        "bubblesort.C": "cpp",
+        "struct.C": "cpp",
+        "array_struct.C": "cpp"
     }
 }
