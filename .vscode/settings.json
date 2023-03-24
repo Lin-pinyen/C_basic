@@ -18,6 +18,9 @@
         "dowhile.C": "cpp",
         "nested_loop.C": "cpp",
         "array.C": "cpp",
-        "2Darray.C": "cpp"
+        "2Darray.C": "cpp",
+        "array_of_string.C": "cpp",
+        "swap.C": "cpp",
+        "bubblesort.C": "cpp"
     }
 }
