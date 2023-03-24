@@ -13,6 +13,9 @@
         "stdio.h": "c",
         "Maxvalue.C": "cpp",
         "string.C": "cpp",
-        "strlwr.h": "c"
+        "strlwr.h": "c",
+        "for_while.C": "cpp",
+        "dowhile.C": "cpp",
+        "nested_loop.C": "cpp"
     }
 }

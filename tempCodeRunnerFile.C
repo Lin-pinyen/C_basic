@@ -1,1 +1,1 @@
-    printf("\n%s\n", string1);
+    // scanf("%c"); //把%d中的空白清空
