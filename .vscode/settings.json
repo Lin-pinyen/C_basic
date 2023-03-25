@@ -31,6 +31,8 @@
         "tempCodeRunnerFile.C": "cpp",
         "bitwise_operators.C": "cpp",
         "memory_intro.C": "cpp",
-        "pointers.C": "cpp"
+        "pointers.C": "cpp",
+        "file_practice.C": "cpp",
+        "file_read.C": "cpp"
     }
 }
