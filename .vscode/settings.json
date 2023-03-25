@@ -23,6 +23,8 @@
         "swap.C": "cpp",
         "bubblesort.C": "cpp",
         "struct.C": "cpp",
-        "array_struct.C": "cpp"
+        "array_struct.C": "cpp",
+        "enum.C": "cpp",
+        "random.C": "cpp"
     }
 }
