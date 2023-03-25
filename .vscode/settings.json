@@ -25,6 +25,9 @@
         "struct.C": "cpp",
         "array_struct.C": "cpp",
         "enum.C": "cpp",
-        "random.C": "cpp"
+        "random.C": "cpp",
+        "guess_number.C": "cpp",
+        "quiz_game.C": "cpp",
+        "tempCodeRunnerFile.C": "cpp"
     }
 }

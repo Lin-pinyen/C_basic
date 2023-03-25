@@ -1,1 +1,1 @@
-    int array[]={9,4,6,1,2,8,7,5,3};
+        setbuf(stdin, NULL);//使stdin輸入流由預設緩衝區轉為無緩衝區
