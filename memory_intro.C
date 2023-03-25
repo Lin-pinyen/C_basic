@@ -3,8 +3,8 @@
 int main(){
     // char： 1 byte，再memory address相鄰的變數差1
     // short: 2 byte，再memory address相鄰的變數差2
-    // int: 4 byte，再memory address相鄰的變數差2
-    // double: 8 byte，再memory address相鄰的變數差2
+    // int: 4 byte，再memory address相鄰的變數差4
+    // double: 8 byte，再memory address相鄰的變數差8
 
     double x='x';
     double y='y';

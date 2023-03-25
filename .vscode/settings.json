@@ -30,6 +30,7 @@
         "quiz_game.C": "cpp",
         "tempCodeRunnerFile.C": "cpp",
         "bitwise_operators.C": "cpp",
-        "memory_intro.C": "cpp"
+        "memory_intro.C": "cpp",
+        "pointers.C": "cpp"
     }
 }
