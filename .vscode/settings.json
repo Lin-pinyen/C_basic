@@ -33,6 +33,7 @@
         "memory_intro.C": "cpp",
         "pointers.C": "cpp",
         "file_practice.C": "cpp",
-        "file_read.C": "cpp"
+        "file_read.C": "cpp",
+        "tic_tac_toe.C": "cpp"
     }
 }
