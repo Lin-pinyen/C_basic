@@ -19,27 +19,40 @@ void printWinner(char);
 int main(){
 
     char winner=' ';
+    char response;
 
-    resetBoard();
-    while (winner == ' ' && checkFreeSpaces()!= 0)
-    {
+    do{
+        winner= ' ';
+        response= ' ';
+        resetBoard();
+        while (winner == ' ' && checkFreeSpaces()!= 0)
+        {
+            printBoard();
+            playerMove();
+            winner=checkWinner();
+            if(winner != ' ' || checkFreeSpaces() == 0){
+                break;
+            }
+
+            computerMove();
+            winner=checkWinner();
+            if(winner != ' ' || checkFreeSpaces() == 0){
+                break;
+            }
+        }
+
         printBoard();
-        playerMove();
-        winner=checkWinner();
-        if(winner != ' ' || checkFreeSpaces() == 0){
-            break;
-        }
+        printWinner(winner);
+        
+        printf("\nWould you like to play again? (Y/N): ");
+        setbuf(stdin, NULL);//使stdin輸入流由預設緩衝區轉為無緩衝區
+        scanf("%c", &response);
+        response= toupper(response);
 
-        computerMove();
-        winner=checkWinner();
-        if(winner != ' ' || checkFreeSpaces() == 0){
-            break;
-        }
-    }
+    } while(response=='Y');
 
-    printBoard();
-    printWinner(winner);
-    
+    printf("Thanks for playing!\n");
+
     return 0;
 }
 void resetBoard(){
